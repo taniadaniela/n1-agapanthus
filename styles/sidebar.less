@@ -1,0 +1,53 @@
+@import "variables";
+
+#account-switcher .primary-item .name {
+  color: @taiga-dark;
+}
+
+.column-MessageListSidebar, .column-MessageList{
+  background-color: @taiga-lighter !important; 
+}
+
+.account-sidebar-sections {
+  background-color: @taiga-lighter !important;
+
+  section {
+    .item-container {
+      margin: 0 10px !important;
+
+      .disclosure-triangle {
+        display: none;
+      }
+
+      .item {
+        padding: 0 10px !important;
+        color: @taiga-light !important;
+        cursor: pointer !important;
+
+        .item-count-box {
+          background: transparent !important;
+          color: @taiga-light !important;
+          box-shadow: 0 0.5px 0 @taiga-light, 0 -0.5px 0 @taiga-light, 0.5px 0 0 @taiga-light, -0.5px 0 0 @taiga-light !important;
+        }
+
+        &.selected {
+          background: lighten(@taiga-light, 30%) !important;
+          border-radius: @base-border-radius;
+          color: @taiga-dark !important;
+
+          .item-count-box {
+            background: transparent !important;
+            color: @taiga-dark !important;
+            box-shadow: 0 0.5px 0 @taiga-dark, 0 -0.5px 0 @taiga-dark, 0.5px 0 0 @taiga-dark, -0.5px 0 0 @taiga-dark !important;
+          }
+
+          .icon {
+            img {
+              background: @taiga-dark !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

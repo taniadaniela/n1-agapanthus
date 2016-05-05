@@ -1,0 +1,12 @@
+{
+  "name": "N1-Taiga",
+  "theme": "Taiga",
+  "version": "0.2.5",
+  "description": "A clean, Mailbox-inspired theme for Nylas N1",
+  "license": "GPL-3.0",
+  "engines": {
+    "nylas": "*"
+  },
+  "styleSheets": ["controls", "email-frame", "sidebar", "threads", "notifications"],
+  "private": true
+}
