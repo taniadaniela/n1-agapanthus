@@ -19,6 +19,20 @@
   }
 }
 
+/**
+* Toolbar buttons
+*/
+.btn-toolbar {
+  background: transparent !important;
+  border: none !important;
+  .content-mask {
+    background: @white !important;
+    border: none !important;
+  }
+}
+
+
+
 body.platform-win32 {
   .sheet-toolbar-container {
     .btn-toolbar {
@@ -88,9 +102,11 @@ body.platform-win32 {
  * Search bar
  */
 
- div.menu.search-container{
-   background: #71A3F7 !important;
+ .search-bar .menu .header-container input.empty {
+   background: @inbox-lighter;
+   color: @white;
  }
+
 .content-container {
   .item.selected {
     background: @taiga-light !important;
