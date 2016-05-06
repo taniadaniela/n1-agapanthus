@@ -1,8 +1,8 @@
 {
-  "name": "N1-Taiga",
-  "theme": "Taiga",
-  "version": "0.2.5",
-  "description": "A clean, Mailbox-inspired theme for Nylas N1",
+  "name": "N1-Agapanthus",
+  "theme": "Agapanthus",
+  "version": "1.0.0",
+  "description": "A clean, Inbox-inspired theme for Nylas N1",
   "license": "GPL-3.0",
   "engines": {
     "nylas": "*"
