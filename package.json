@@ -1,12 +1,12 @@
 {
   "name": "N1-Agapanthus",
   "theme": "Agapanthus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A clean, Inbox-inspired theme for Nylas N1",
   "license": "GPL-3.0",
   "engines": {
     "nylas": "*"
   },
-  "styleSheets": ["controls", "email-frame", "sidebar", "threads", "notifications", "compose-button", "headerbar"],
+  "styleSheets": ["controls", "email-frame", "sidebar", "threads", "notifications", "compose-button", "headerbar","compose"],
   "private": true
 }
