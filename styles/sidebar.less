@@ -1,4 +1,5 @@
 @import "variables";
+@import "ui-variables";
 
 #account-switcher .primary-item .name {
   color: @taiga-dark;
@@ -46,8 +47,23 @@
               background: @taiga-dark !important;
             }
           }
+        }     
+        &#N1-Snoozed .icon img{
+          background: orangered!important;
         }
       }
     }
+  }
+}
+
+
+.account-sidebar-sections section > div > div{
+  // Inbox icon
+  &:nth-child(1) > .item-container .item .icon img{
+    background: @toolbar-bg!important;
+  }
+  // Sent mail icon
+  &:nth-child(5) > span.item-container > .item > .icon img{
+    background: green!important;
   }
 }
