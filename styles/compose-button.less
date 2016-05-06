@@ -14,5 +14,13 @@
       padding: 19px;
       padding-top: 15px;
       box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28) !important;
+      img.content-mask{
+          transition: transform 400ms ease-in;
+      }
+      &:hover{
+        img.content-mask{
+          transform: rotate(360deg);
+        }
+      }
   }
 }
