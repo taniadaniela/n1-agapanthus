@@ -7,6 +7,6 @@
   "engines": {
     "nylas": "*"
   },
-  "styleSheets": ["controls", "email-frame", "sidebar", "threads", "notifications", "compose-button"],
+  "styleSheets": ["controls", "email-frame", "sidebar", "threads", "notifications", "compose-button", "headerbar"],
   "private": true
 }
